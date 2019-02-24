@@ -1,6 +1,6 @@
 body
 {
-  background-color: #fcfcfc;
+    background-color: #fcfcfc;
 }
 
 #logoDiv {
@@ -20,18 +20,18 @@ body
     margin-left: 5px;
 }
 
-.nav-bar ul {
+.nav-bar ul, .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.nav-bar li {
+.nav-bar li, .footer li {
     float: left;
 }
 
-.nav-bar li a {
+.nav-bar li a , .footer li a{
     display: block;
     padding: 8px;
     color: #000;
@@ -42,4 +42,26 @@ body
 .nav-bar li a:hover {
     background-color: #555;
     color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    height: 35px;
+}
+
+.left-foot {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    float: left;
+}
+
+.right-foot {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    float: left;
 }
