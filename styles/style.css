@@ -1,0 +1,45 @@
+body
+{
+  background-color: #fcfcfc;
+}
+
+#logoDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+#search-field {
+    width: 450px;
+    margin-left: -100px;
+}
+
+.search-buttons {
+    margin-left: 5px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-bar li a:hover {
+    background-color: #555;
+    color: white;
+}
